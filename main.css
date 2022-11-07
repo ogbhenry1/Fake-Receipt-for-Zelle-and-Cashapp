@@ -1,0 +1,136 @@
+html, body{
+    font-family: 'Courier New', Courier, monospace;
+    width: 380px;
+    margin: auto;
+    border: #808080 solid 1px;
+    min-height: 100vh;
+}
+.head{
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(to left, #10DAF1, #2E60E8);
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.head h1{
+    font-size: 200px;
+    
+}
+.head p{
+    font-size: 14px;
+    margin-bottom: -140px;
+}
+.column{
+    width: 41%;
+    height: 180px;
+    border: #808080 solid 2px;
+    border-radius: 10px;
+    color: #524f4f;
+    margin: 15px;
+    float: left;
+}
+.column2{
+    clear:both;
+    width: 90%;
+    height: 180px;
+    border: #808080 solid 2px;
+    border-radius: 10px;
+    color: #524f4f;
+    margin: auto;
+    
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+ }
+ .column div{
+     font-size: 15px;
+ }
+ .zellehead{
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(to left top, #be20be, #2E60E8, #2E60E8);
+    color: #fff;
+    margin-top: -60px;
+    margin-bottom: 20px;
+}
+.zellehead h1{
+    font-size: 80px;
+    font-family: Arial;
+    padding-top: 20px;
+}
+.zellehead h2{
+    margin-top: -20px;
+}
+input{
+    width: 80%;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 5px;
+    border: #808080 solid 2px;
+    opacity: 0.3;
+    padding: 10px;
+    color:#000;
+    
+}
+.dark-btn{
+    width: 40%;
+    height: 48px;
+    background-color: #2E60E8;
+    border: none;
+    color: #fff;
+
+
+
+}
+.light-btn{
+    width: 40%;
+    height: 48px;
+    background-color: transparent;
+    border: #2E60E8 solid 2px;
+    color: #2E60E8;
+
+}
+.btn{
+    background-image: linear-gradient(to left , #be20be, #2E60E8, #2E60E8);
+     width: 80%;
+     height: 48px;
+     border-radius: 30px;
+     border: none;
+     color: #fff;
+}
+.cashhead{
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(to left top, #8ee78b, #1fc035, #095f1e);
+    color: #fff;
+    margin-top: -60px;
+    margin-bottom: 20px;
+}
+.cashhead h1{
+font-size: 70px;
+font-family: Arial;
+padding-top: 20px;
+}
+.cashhead h2{
+    margin-top: -20px;
+}
+.cashbtn{
+    width: 85%;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(to right bottom, #8ee78b, #1fc035, #095f1e);
+    color: #fff;
+
+}
